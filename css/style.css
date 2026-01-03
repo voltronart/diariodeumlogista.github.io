@@ -34,6 +34,7 @@
         .container {
             width: 100%;
             max-width: 480px; /* Largura típica de celular */
+
         }
 
         /* --- CABEÇALHO (PERFIL) --- */
@@ -56,6 +57,7 @@
             font-size: 1.25rem;
             font-weight: 700;
             margin-bottom: 8px;
+            font-family: "PT Serif Caption", serif;
         }
 
         p.bio {
@@ -148,5 +150,14 @@
             color: #9CA3AF;
         }
         
+.pt-serif-caption-regular {
+  font-family: "PT Serif Caption", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  
+.pt-serif-caption-regular-italic {
+  font-family: "PT Serif Caption", serif;
+  font-weight: 400;
+  font-style: italic;
+}
